@@ -1,7 +1,7 @@
 <template>
     <div class="home">
         <h1 class="title">
-            河南广播电视台微信矩阵
+            河南广播电视台微博矩阵
         </h1>        
         <section class="hndt">
             <div class="name-box clearfix border-bottom-1px">
@@ -44,7 +44,7 @@
 
 <script>
 
-import { HNDT_LOGO, HNTV_LOGO } from 'config/index'
+import { HNDT_LOGO, HNTV_LOGO, WEIBOLINK } from 'config/index'
 
 
 export default {
@@ -53,11 +53,13 @@ export default {
         return {
             hndtLogo:HNDT_LOGO,
             hntvLogo:HNTV_LOGO,
+            weiboLink:WEIBOLINK
         }
     },
     methods:{
-        goToQrcode(type,qrId) {
-            this.$router.push({path:'/qrcode', query:{type, qrId}})            
+        goToQrcode(type,qrId) {             
+            qrId = parseInt(qrId) - 1
+            window.location.href = this.weiboLink[type][qrId].url 
         }
     }
 }

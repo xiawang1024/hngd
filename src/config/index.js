@@ -115,83 +115,81 @@ const HNTV_LOGO = [
 ]
 
 
-const QRCODELIST = [
+const WEIBOLINK = [
     [
         {
-            url:require('qrcodes/hndt/01.png')
+            url:'https://m.weibo.cn/p/1005051688864597'
         },
         {
-            url:require('qrcodes/hndt/02.png')
+            url:'https://m.weibo.cn/p/1005052137096053'
         },
         {
-            url:require('qrcodes/hndt/03.png')
+            url:'https://m.weibo.cn/p/1005051732802301'
         },
         {
-            url:require('qrcodes/hndt/04.png')
+            url:'https://m.weibo.cn/p/1005051934336047'
         },
         {
-            url:require('qrcodes/hndt/05.png')
+            url:'https://m.weibo.cn/p/1005051663884750'
         },
         {
-            url:require('qrcodes/hndt/06.png')
+            url:'https://m.weibo.cn/p/1005052144180455'
         },
         {
-            url:require('qrcodes/hndt/07.png')
+            url:'https://m.weibo.cn/p/1005051646080864'
         },
         {
-            url:require('qrcodes/hndt/08.png')
+            url:'https://m.weibo.cn/p/1005052773591493'
         },
         {
-            url:require('qrcodes/hndt/09.png')
+            url:'https://m.weibo.cn/p/1005052005817001'
         },
         {
-            url:require('qrcodes/hndt/10.png')
+            url:'https://weibo.com/60301056?refer_flag=1001030101_&is_hot=1'
         },
         {
-            url:require('qrcodes/hndt/11.png')
-        },
+            url:'https://m.weibo.cn/u/5662318247?refer_flag=1001030103_&refer_flag=1001030103_&jumpfrom=weibocom'
+        }
     ],
     [
         {
-            url:require('qrcodes/hntv/01.png')
+            url:'https://m.weibo.cn/p/1005051834783273'
         },
         {
-            url:require('qrcodes/hntv/02.png')
+            url:'https://m.weibo.cn/p/1005051630423295'
         },
         {
-            url:require('qrcodes/hntv/03.png')
+            url:'https://m.weibo.cn/p/1005051769216315'
         },
         {
-            url:require('qrcodes/hntv/04.png')
+            url:'https://m.weibo.cn/p/1005051710226151'
         },
         {
-            url:require('qrcodes/hntv/05.png')
+            url:'https://m.weibo.cn/p/1005051714269484'
         },
         {
-            url:require('qrcodes/hntv/06.png')
+            url:'https://m.weibo.cn/p/1005053214879741'
         },
         {
-            url:require('qrcodes/hntv/07.png')
+            url:'https://m.weibo.cn/p/1005052928860467'
         },
         {
-            url:require('qrcodes/hntv/08.png')
+            url:'https://m.weibo.cn/p/1005052029700693'
         },
         {
-            url:require('qrcodes/hntv/09.png')
+            url:'https://m.weibo.cn/p/1005051294472663'
         },
         {
-            url:require('qrcodes/hntv/10.png')
+            url:'https://m.weibo.cn/u/3867204506?refer_flag=1001030101_&refer_flag=1001030101_&jumpfrom=weibocom'
         },
         {
-            url:require('qrcodes/hntv/11.png')
-        },
+            url:'https://m.weibo.cn/p/1005055680268344'
+        }
     ]
 ]
 
-
-
 export {
     HNDT_LOGO,
-    HNTV_LOGO,
-    QRCODELIST
+    HNTV_LOGO,    
+    WEIBOLINK
 }
