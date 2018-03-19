@@ -21,78 +21,8 @@
 
 
 <script>
-const QRCODELIST = [
-    [
-        {
-            url:require('qrcodes/hndt/01.png')
-        },
-        {
-            url:require('qrcodes/hndt/02.png')
-        },
-        {
-            url:require('qrcodes/hndt/03.png')
-        },
-        {
-            url:require('qrcodes/hndt/04.png')
-        },
-        {
-            url:require('qrcodes/hndt/05.png')
-        },
-        {
-            url:require('qrcodes/hndt/06.png')
-        },
-        {
-            url:require('qrcodes/hndt/07.png')
-        },
-        {
-            url:require('qrcodes/hndt/08.png')
-        },
-        {
-            url:require('qrcodes/hndt/09.png')
-        },
-        {
-            url:require('qrcodes/hndt/10.png')
-        },
-        {
-            url:require('qrcodes/hndt/11.png')
-        },
-    ],
-    [
-        {
-            url:require('qrcodes/hntv/01.png')
-        },
-        {
-            url:require('qrcodes/hntv/02.png')
-        },
-        {
-            url:require('qrcodes/hntv/03.png')
-        },
-        {
-            url:require('qrcodes/hntv/04.png')
-        },
-        {
-            url:require('qrcodes/hntv/05.png')
-        },
-        {
-            url:require('qrcodes/hntv/06.png')
-        },
-        {
-            url:require('qrcodes/hntv/07.png')
-        },
-        {
-            url:require('qrcodes/hntv/08.png')
-        },
-        {
-            url:require('qrcodes/hntv/09.png')
-        },
-        {
-            url:require('qrcodes/hntv/10.png')
-        },
-        {
-            url:require('qrcodes/hntv/11.png')
-        },
-    ]
-]
+import { QRCODELIST } from 'config/index'
+
 export default {
     name:'qrcode',
     data() {

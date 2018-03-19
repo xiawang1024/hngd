@@ -10,8 +10,8 @@ const [
     DEFAULT_DESC
 ] = [
     '河南广播电视台微信矩阵',
-    'http://www.hndt.com/h5/hndttv/index.html',
-    'http://www.hndt.com/h5/hndttv/hndttv-logo.jpg',
+    'http://www.hndt.com/h5/hngd/index.html',
+    'http://www.hndt.com/h5/hngd/hngd-logo.jpg',
     '《河南广播电视台》微信公众号是河南广电外宣窗口、服务窗口。'
 ]
 

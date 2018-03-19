@@ -30,7 +30,8 @@ module.exports = {
       'base':resolve('src/base'),
       'components':resolve('src/components'),
       'logos':resolve('src/logos'),
-      'qrcodes':resolve('src/qrcodes')
+      'qrcodes':resolve('src/qrcodes'),
+      'config':resolve('src/config')
     }
   },
   module: {
