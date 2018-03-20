@@ -9,8 +9,8 @@ const [
     DEFAULT_IMGURL,
     DEFAULT_DESC
 ] = [
-    '河南广播电视台微博矩阵',
-    'http://www.hndt.com/h5/hngd/weibo/index.html',
+    '河南广播电视台看看电视',
+    'http://www.hndt.com/h5/hngd/kktv',
     'http://www.hndt.com/h5/hngd/hngd-logo.jpg',
     '《河南广播电视台》微信公众号是河南广电外宣窗口、服务窗口。'
 ]

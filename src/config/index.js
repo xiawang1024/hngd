@@ -188,8 +188,45 @@ const WEIBOLINK = [
     ]
 ]
 
+const HTTVLIVELINK = [
+    {
+        url:'http://www.hntv.tv/live/zhibo.shtml?channel_id=135'
+    },
+    {
+        url:'http://www.hntv.tv/live/zhibo.shtml?channel_id=136'
+    },
+    {
+        url:'http://www.hntv.tv/live/zhibo.shtml?channel_id=137'
+    },
+    {
+        url:'http://www.hntv.tv/live/zhibo.shtml?channel_id=138'
+    },
+    {
+        url:'http://www.hntv.tv/live/zhibo.shtml?channel_id=139'
+    },
+    {
+        url:'http://www.hntv.tv/live/zhibo.shtml?channel_id=140'
+    },
+    {
+        url:'http://www.hntv.tv/live/zhibo.shtml?channel_id=141'
+    },
+    {
+        url:'http://www.hntv.tv/live/zhibo.shtml?channel_id=142'
+    },
+    {
+        url:'http://www.hntv.tv/live/zhibo.shtml?channel_id=143'
+    },
+    {
+        url:'http://www.hntv.tv/live/zhibo.shtml?channel_id=144'
+    },
+    {
+        url:'http://www.hntv.tv/live/zhibo.shtml?channel_id=146'
+    }
+]
+
 export {
     HNDT_LOGO,
     HNTV_LOGO,    
-    WEIBOLINK
+    WEIBOLINK,
+    HTTVLIVELINK
 }

@@ -9,10 +9,15 @@
 
 .border-bottom-1px{
     border-bottom: 1px solid #e5e5e5;
-    border-image: svg(1pxborder param(--color #ffffff)) 2 2 stretch;
+    border-image: svg(1pxborder param(--color #949494)) 2 2 stretch;
 }
 
 .border-top-1px{
     border-top: 1px solid #e5e5e5;
+    border-image: svg(1pxborder param(--color #ffffff)) 2 2 stretch;
+}
+
+.border-bottom-white-1px{
+    border-bottom: 1px solid #e5e5e5;
     border-image: svg(1pxborder param(--color #ffffff)) 2 2 stretch;
 }
