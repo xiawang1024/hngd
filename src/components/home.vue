@@ -56,7 +56,7 @@ export default {
     box-sizing border-box
     .title
         margin-top 90px
-        font-size 38px
+        font-size 40px
         color #ffffff
     
     .logos-wrap
