@@ -1,36 +1,19 @@
 <template>
     <div class="home">
         <h1 class="title">
-            河南广播电视台微博矩阵
+            河南广播电视台新闻热线
         </h1>        
-        <section class="hndt">
-            <div class="name-box clearfix border-bottom-1px">
-                <h2 class="name-wrap right ">
-                    <span class="icon-wrap"></span>
-                    <span class="name">广播</span>
-                </h2>
-            </div>   
-            <ul class="logos-wrap">
-                <li class="logo" v-for="item of hndtLogo" :key="item.urlId">
-                    <img :src="item.url" alt="" class="img" @click="goToQrcode(0,item.urlId)">
-                    <p class="name" v-html="item.name"></p>
-                </li>   
-            </ul>         
-        </section>
-        <section class="hntv">
-            <div class="name-box clearfix border-bottom-1px">
-                <h2 class="name-wrap right ">
-                    <span class="icon-wrap"></span>
-                    <span class="name">电视</span>
-                </h2>
-            </div>   
-            <ul class="logos-wrap">
-                <li class="logo" v-for="item of hntvLogo" :key="item.urlId">
-                    <img :src="item.url" alt="" class="img" @click="goToQrcode(1,item.urlId)">
-                    <p class="name" v-html="item.name"></p>
-                </li>   
-            </ul>         
-        </section>
+        <ul class="logos-wrap">
+            <li class="logo border-bottom-1px" v-for="item of newHotLine" :key="item.tel">                
+                <p class="name" v-html="item.name"></p>
+                <a v-if="item.tel != '000000'" :href="'tel:' + item.tel" class="href">{{item.tel}}</a>  
+                <p v-else class="href no-icon">
+                    QQ1: {{item.qq[0]}} 
+                    <br>
+                    QQ2: {{item.qq[1]}}
+                </p>              
+            </li>   
+        </ul>         
         <div class="ft">
             <span class="icon-tai">
 
@@ -44,16 +27,14 @@
 
 <script>
 
-import { HNDT_LOGO, HNTV_LOGO, WEIBOLINK } from 'config/index'
+import { NEWSHOTLINE } from 'config/index'
 
 
 export default {
     name:'home',
     data() {
         return {
-            hndtLogo:HNDT_LOGO,
-            hntvLogo:HNTV_LOGO,
-            weiboLink:WEIBOLINK
+           newHotLine:NEWSHOTLINE
         }
     },
     methods:{
@@ -75,55 +56,38 @@ export default {
     box-sizing border-box
     .title
         margin-top 90px
-        font-size 36px
+        font-size 38px
         color #ffffff
-    .hndt,.hntv
-        width 100%
-        margin-top 120px
-        .name-box
+    
+    .logos-wrap
+        width 100% 
+        margin-top 100px              
+        .logo
             width 100%
-            padding-bottom 26px
-            .name-wrap
-                font-size 0                      
-                .icon-wrap
-                    vertical-align bottom
-                    display inline-block
-                    width 35px
-                    height 41px
-                    background url('./icon-hndt.png') center center no-repeat
-                    background-size cover
-                .name
-                    vertical-align bottom
-                    display inline-block
-                    margin-left 16px
-                    font-size 28px
-                    color #ffffff
-        .logos-wrap
-            width 100%
+            height 80px
             display flex
-            flex-wrap wrap            
-            .logo
-                width 200px
-                margin-top 80px
-                text-align center
-                font-size 0
-                .img
-                    width 140px
-                    height 140px
-                .name
-                    padding 0 10px
-                    margin-top 28px
-                    line-height 1.4
-                    font-size 28px
-                    color #ffffff
-    .hntv
-        .name-box
-            .name-wrap
-                .icon-wrap
-                    width 35px
-                    height 43px
-                    background url('./icon-hntv.png') center center no-repeat
-                    background-size cover
+            align-items center 
+            justify-content space-between
+            padding 30px 0
+            text-align center            
+            .name
+                width 200px  
+                height 80px
+                line-height 80px             
+                padding 0 10px                                
+                font-size 34px
+                color #ffffff
+            .href
+                flex 1   
+                height 80px
+                line-height 80px            
+                color #ffffff
+                font-size 32px                
+                background url('./icon-phone.png') right 10px center no-repeat
+                background-size auto 50px 
+                &.no-icon
+                    background none  
+                    line-height 1.4         
     .ft
         width 100%
         margin 240px 0 90px 0
