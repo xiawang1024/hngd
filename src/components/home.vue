@@ -73,7 +73,7 @@ export default {
     box-sizing border-box
     .title
         margin-top 90px
-        font-size 36px
+        font-size 40px
         color #ffffff
     .hndt,.hntv
         width 100%
