@@ -73,7 +73,8 @@ export default {
     box-sizing border-box
     .title
         margin-top 90px
-        font-size 40px
+        text-align center
+        font-size 48px
         color #ffffff
     .hndt,.hntv
         width 100%
@@ -94,7 +95,7 @@ export default {
                     vertical-align bottom
                     display inline-block
                     margin-left 16px
-                    font-size 28px
+                    font-size 32px
                     color #ffffff
         .logos-wrap
             width 100%
@@ -112,7 +113,7 @@ export default {
                     padding 0 10px
                     margin-top 28px
                     line-height 1.4
-                    font-size 28px
+                    font-size 32px
                     color #ffffff
     .hntv
         .name-box
@@ -135,6 +136,6 @@ export default {
             background url('./icon-tai.png') center center no-repeat
             background-size cover
         .name-tai
-            font-size 25px
+            font-size 28px
 </style>
 
