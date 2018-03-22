@@ -59,7 +59,13 @@ export default {
     methods:{
         goToQrcode(type,qrId) {             
             qrId = parseInt(qrId) - 1
-            window.location.href = this.weiboLink[type][qrId].url 
+            let url = this.weiboLink[type][qrId].url
+            if(url) {
+                window.location.href = url
+            }else{
+                return 
+            }
+             
         }
     }
 }
