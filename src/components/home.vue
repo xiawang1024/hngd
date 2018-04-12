@@ -26,7 +26,8 @@ export default {
     methods:{
         goToQrcode(qrId) {             
             qrId = parseInt(qrId) - 1
-            window.location.href = this.hntvLive[qrId].url 
+            // window.location.href = this.hntvLive[qrId].url 
+            window.open(this.hntvLive[qrId].url )
         }
     }
 }
