@@ -74,7 +74,7 @@ const HNTV_LOGO = [
     },
     {
         url:require('logos/hntv-icon/icon-hntv-04.png'),
-        name:'法制频道',
+        name:'法治频道',
         urlId:'04'
     },
     {
