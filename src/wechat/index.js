@@ -9,10 +9,10 @@ const [
     DEFAULT_IMGURL,
     DEFAULT_DESC
 ] = [
-    '河南广播电视台微信矩阵',
-    'http://www.hndt.com/h5/hngd/weixin/index.html',
-    'http://www.hndt.com/h5/hngd/hngd-logo.jpg',
-    '《河南广播电视台》微信公众号是河南广电外宣窗口、服务窗口。'
+    '河南广播电视台——广播微信矩阵',
+    'http://www.hndt.com/h5/hndt/weixin/index.html',
+    'http://www.hndt.com/res/logo_300.png',
+    '河南广播，最新的内容资讯及时看，最新的电台声波及时听！'
 ]
 
 

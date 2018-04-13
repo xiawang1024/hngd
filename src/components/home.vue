@@ -17,7 +17,7 @@
                 </li>   
             </ul>         
         </section>
-        <section class="hntv">
+        <!-- <section class="hntv">
             <div class="name-box clearfix border-bottom-1px">
                 <h2 class="name-wrap right ">
                     <span class="icon-wrap"></span>
@@ -30,7 +30,7 @@
                     <p class="name" v-html="item.name"></p>
                 </li>   
             </ul>         
-        </section>
+        </section> -->
         <div class="ft">
             <span class="icon-tai">
 
