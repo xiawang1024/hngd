@@ -3,10 +3,10 @@
         <h1 class="title">
             河南广播电视台微博矩阵
         </h1>     
-        <div class="hngd-weibo">
+        <!-- <div class="hngd-weibo">
             <img src="../logos/icon-hngd-logo.png" class="img" @click="goToQrcode(2)">
             <p class="name">河南广播电视台</p>
-        </div>   
+        </div>    -->
         <section class="hndt">
             <div class="name-box clearfix border-bottom-1px">
                 <h2 class="name-wrap right ">
@@ -21,7 +21,7 @@
                 </li>   
             </ul>         
         </section>
-        <section class="hntv">
+        <!-- <section class="hntv">
             <div class="name-box clearfix border-bottom-1px">
                 <h2 class="name-wrap right ">
                     <span class="icon-wrap"></span>
@@ -34,7 +34,7 @@
                     <p class="name" v-html="item.name"></p>
                 </li>   
             </ul>         
-        </section>
+        </section> -->
         <div class="ft">
             <span class="icon-tai">
 
@@ -105,7 +105,7 @@ export default {
             color #ffffff
     .hndt,.hntv
         width 100%
-        margin-top 40px
+        margin-top 120px
         .name-box
             width 100%
             padding-bottom 26px
