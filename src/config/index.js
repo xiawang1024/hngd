@@ -177,7 +177,7 @@ const WEIBOLINK = [
             url:'https://m.weibo.cn/p/1005052029700693'
         },
         {
-            url:'https://m.weibo.cn/p/1005051294472663'
+            url:'https://m.weibo.cn/u/5219564724?jumpfrom=weibocom'
         },
         {
             url:'https://m.weibo.cn/u/3867204506?refer_flag=1001030101_&refer_flag=1001030101_&jumpfrom=weibocom'
